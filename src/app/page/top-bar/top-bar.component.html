@@ -1,8 +1,15 @@
-<app-top-bar></app-top-bar>
+<a [routerLink]="['/']">
+  <h1>My Store</h1>
+</a>
 
-<div class="container">
-  <router-outlet></router-outlet>
-</div>
+<a [routerLink]="['/cart']"
+  class="button fancy-button">
+  <em class="material-icons">
+    shopping_cart
+  </em>
+  Cart
+</a>
+
 
 <!--
 Copyright Google LLC. All Rights Reserved.
